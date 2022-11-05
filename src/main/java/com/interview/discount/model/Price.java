@@ -32,6 +32,9 @@ public class Price {
     @Column(name = "PRICE_LIST")
     private int priceList;
 
+    @Column(name = "PRODUCT_ID")
+    private int productId;
+
     @Column(name = "PRIORITY")
     private int priority;
 

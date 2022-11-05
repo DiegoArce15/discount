@@ -1,7 +1,7 @@
 package com.interview.discount.repository;
 
 import com.interview.discount.model.Price;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface PriceRepository extends PagingAndSortingRepository<Price, Long> {
+public interface PriceRepository extends JpaRepository<Price, Long> {
 }
