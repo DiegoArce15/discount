@@ -15,5 +15,5 @@ public interface RateService {
      * @param brandId         Identificador de cadena
      * @return Tarifa a aplicar
      */
-    RateDto getRateByDateAndBrandIdAndBrandId(LocalDateTime applicationDate, int productId, int brandId);
+    RateDto getRateByDateAndProductIdAndBrandId(LocalDateTime applicationDate, int productId, int brandId);
 }

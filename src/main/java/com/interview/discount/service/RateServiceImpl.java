@@ -18,7 +18,7 @@ public class RateServiceImpl implements RateService {
     private final PriceService priceService;
 
     @Override
-    public RateDto getRateByDateAndBrandIdAndBrandId(LocalDateTime applicationDate, int productId, int brandId) {
+    public RateDto getRateByDateAndProductIdAndBrandId(LocalDateTime applicationDate, int productId, int brandId) {
 
         Optional<Price> price = priceService.getPriceByDateAndProductIdAndBrandId(applicationDate, productId, brandId);
 
