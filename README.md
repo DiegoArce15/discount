@@ -15,7 +15,7 @@ Campos:
 - **START_DATE , END_DATE**: Rango de fechas en el que aplica el precio tarifa indicado.
 - **PRICE_LIST**: Identificador de la tarifa de precios aplicable.
 - **PRODUCT_ID**: Identificador código de producto. 
-- **PRIORITY**: Desambiguador de aplicación de precios. Si dos tarifas coinciden en un rago de fechas se aplica la de mayor prioridad (mayor valor numérico).
+- **PRIORITY**: Desambiguador de aplicación de precios. Si dos tarifas coinciden en un rango de fechas se aplica la de mayor prioridad (mayor valor numérico).
 - **PRICE**: Precio final de venta.
 - **CURR**: ISO de la moneda.
 
