@@ -11,3 +11,5 @@ spring:
     hibernate.ddl-auto: none # Evita que se cree la tabla a partir de las entidades
   management:
     endpoints.web.exposure.include: info,health,flyway
+  mvc:
+    format.date-time: yyyy-MM-dd HH:mm:ss # Patron que usara para castear los date time del endpoint
