@@ -23,7 +23,7 @@ public class DiscountController implements DiscountApi {
 
     @Override
     @GetMapping("/rates")
-    public ResponseEntity<RateDto> getPrices(@RequestParam("applicationDate") LocalDateTime applicationDate,
+    public ResponseEntity<RateDto> getPrices(@RequestParam LocalDateTime applicationDate,
                                              @RequestParam int productId,
                                              @RequestParam int brandId) {
         log.info("Obteniendo la tarifa para la fecha {}, el producto {} y la marca {}", applicationDate, productId, brandId);
